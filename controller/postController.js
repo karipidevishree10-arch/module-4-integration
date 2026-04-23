@@ -5,7 +5,6 @@ exports.deletePost = async (req, res) => {
     return res.status(404).json({ message: "Post not found" });
   }
 
-  // 🔴 AUTHORIZATION CHECK
   if (post.user.toString() !== req.user.id) {
     return res.status(403).json({ message: "Forbidden" });
   }
