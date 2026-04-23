@@ -7,8 +7,6 @@ GitHub Pull Request (PR): Submit the link to a PR that merges your security-impl
 Secure Login (JWTs in HttpOnly Cookies).
 Authentication Middleware (protect function).
 Authorization Logic (Ownership checks in controllers).
-Video Walkthrough (Loom/Google Drive): A short (3-5 minute) video where you:
-Show the Code: Briefly explain your login controller (cookie setting) and authMiddleware (cookie reading).
 Demo the Security: Use Postman to demonstrate:
 Scenario A (Authentication): Try to delete a post without logging in (Show 401 Error).
 Scenario B (Authorization): Log in as User A, then try to delete a post owned by User B (Show 403 Error).
